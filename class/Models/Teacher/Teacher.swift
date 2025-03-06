@@ -19,8 +19,16 @@ class Teacher: Person {
         super.init(name: teacherName, age: teacherAge, gender: teacherGender)
     }
 
+    internal func getRate() -> Int { return self.rate }
+
+    var description: String {
+        return
+            "Name: \(getName()) Age: \(getAge()) Gender: \(getGender())"
+            + "Rate: \(getRate())"
+    }
+
     override func greet() -> String {
-        return "I am \(name), how are you doing?"
+        return "I am \(getName()), how are you doing?"
     }
 
     internal func isGood(intRate rate: Int) -> String {
