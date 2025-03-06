@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37112A9C2D79A5B200A0C97A /* Fakery in Frameworks */ = {isa = PBXBuildFile; productRef = 37112A9B2D79A5B200A0C97A /* Fakery */; };
+		37112AB52D79B5F900A0C97A /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 37112AB42D79B5F300A0C97A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		37112A892D79A4B000A0C97A /* class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = class; sourceTree = BUILT_PRODUCTS_DIR; };
 		37112A932D79A4B600A0C97A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37112A942D79A4D000A0C97A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37112AB42D79B5F300A0C97A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -51,6 +53,7 @@
 		37112A802D79A4B000A0C97A = {
 			isa = PBXGroup;
 			children = (
+				37112AB42D79B5F300A0C97A /* .gitignore */,
 				37112A932D79A4B600A0C97A /* README.md */,
 				37112A942D79A4D000A0C97A /* LICENSE */,
 				37112A8B2D79A4B000A0C97A /* class */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37112AB52D79B5F900A0C97A /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
