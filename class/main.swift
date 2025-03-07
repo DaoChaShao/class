@@ -43,6 +43,25 @@ print(SEPERATOR)
 
 print(
     "Does \(students[0].getName()) pass in chinese? "
-        + "\(students[0].isPass(intScore: students[0].getChinese()))"
+        + "\(students[0].isPass(intScore: students[0].getChinese()))!"
 )
+print(SEPERATOR)
+
+let subjects: [String] = ["chinese", "math", "english"]
+if let subject: String = subjects.randomElement() {
+    if let chinese: Int = students[0][subject] {
+        print("\(students[0].getName())'s \(subject) is \(chinese).")
+    } else {
+        print("NO Chinese score!")
+    }
+} else {
+    print("NO such subject!")
+}
+print(SEPERATOR)
+
+print("\(students[0].getName())'s total score is \(students[0].getTotal()).")
+print("\(students[0].getName())'s average score is \(students[0].getAverage().rounded()).")
+print(SEPERATOR)
+
+print("The feedback of \(students[0].getName())'s honest is: \(students[0].tellTheTruth())")
 print(SEPERATOR)
